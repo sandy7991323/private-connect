@@ -38,3 +38,17 @@
   -webkit-backdrop-filter: blur(8px);
   border: 1px solid rgba(51, 65, 85, 0.3);
 }
+
+/* Forcefully hide Netlify badge and drawer */
+#netlify-badge,
+#netlify-feedback-badge,
+netlify-drawer,
+iframe#netlify-drawer,
+[data-netlify-deploy-id],
+div[class*="netlify-badge"],
+button[class*="netlify-badge"] {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+}
