@@ -156,7 +156,7 @@ export const LandingPage: React.FC = () => {
 
       {/* Footer */}
       <footer className="border-t border-slate-900 py-6 text-center text-xs text-slate-500">
-        Private Connect • Browser-Only Peer-to-Peer Communication Platform • Netlify Ready
+        Private Connect • Browser-Only Peer-to-Peer Communication Platform
       </footer>
     </div>
   );
